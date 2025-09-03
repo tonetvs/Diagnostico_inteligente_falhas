@@ -27,7 +27,6 @@ Antes da modelagem, foi conduzida uma análise exploratória com foco em:
 
 ## 2. Pipeline de Modelagem
 
-````mermaid
 ```mermaid
 flowchart TD
   A[Carregamento da base de dados] --> B[Analise exploratoria]
@@ -36,7 +35,6 @@ flowchart TD
   D -->|Se falha detectada| E[Modelo 2 - Classificacao do Tipo de Falha]
   E --> F[Avaliacao final e interpretacao]
 ```
-````
 
 ### Pré-processamento
 
